@@ -173,7 +173,7 @@ h1.title-destino {
 
 /* ===== View B ====== */
 .cover-city {
-  height: 400px;
+  height: 280px;
   position: relative;
   width: 100%;
 }
@@ -233,7 +233,7 @@ span.info-cover-city {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   height: 100%;
      max-height: 210px;
-   max-width: 815px;
+   max-width: 80%;
   padding: 0px 15px;
   position: relative;
   width: 100%;
@@ -603,4 +603,59 @@ input.form-control.box-txt{
 
 ul.filters{
 	margin: 0px !important;
+}
+
+
+.oferta{
+    width: 70%;
+    height: 35px;
+    border-bottom-right-radius: 5px;
+    background: #ff0506;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    z-index: 2;
+        padding: 0px 10px;
+        border-top-left-radius: 10px;
+}
+
+.descuento{
+width: 85%;
+    height: 35px;
+    border-bottom-right-radius: 5px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    /* margin-left: 75%; */
+    display: inline-flex;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.item-oferta{
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    color: white;    
+    white-space: nowrap;
+
+}
+
+
+.item-descuento{
+font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    color: #ff0506;
+    /* z-index: 12000; */
+    right: 6px;
+        white-space: nowrap;
+
 }
